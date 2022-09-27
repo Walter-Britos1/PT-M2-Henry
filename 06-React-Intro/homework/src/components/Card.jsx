@@ -9,6 +9,6 @@ export default function Card(props) {
     <p>{props.max}</p>
     <p>Max</p>
     <p>{props.min}</p>
-    <img src={`http://openweathermap.org/img/wn/${props.img}@2x.png`} alt="" />
+    <img src={`http://openweathermap.org/img/wn/${props.img}@2x.png`} alt="icon" />
   </div>
 };
