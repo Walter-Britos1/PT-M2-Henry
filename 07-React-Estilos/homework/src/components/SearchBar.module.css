@@ -1,0 +1,19 @@
+.contenedor {
+    background-color: rgb(15, 15, 117);
+}
+
+.contenedor button {
+    background-color: rgb(15, 15, 117);
+    border-radius: 5px;
+    color: rgb(18, 187, 18) ;
+    width: 90px;
+    height: 35px;
+    border: 2px solid rgb(18, 187, 18);
+    font-size: 20px;
+    
+}
+
+.contenedor input {
+    border-radius: 5px;
+    color: rgb(95, 93, 93);
+}

@@ -1,0 +1,7 @@
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    height: 50%;
+    width: 100%;
+}
+
