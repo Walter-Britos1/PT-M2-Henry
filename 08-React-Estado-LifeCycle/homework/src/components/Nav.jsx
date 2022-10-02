@@ -5,7 +5,12 @@ import './Nav.css';
 
 function Nav({onSearch}) {
   return (
-    <div>Nav</div>
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="https://www.admissions.soyhenry.com/">
+    <img src={Logo} width="30" height="30" alt=""/>Henry - Weather App 
+  </a>
+  <SearchBar onSearch={onSearch}/>
+</nav>
   );
 };
 
